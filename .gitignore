@@ -1,0 +1,6 @@
+*.min.js
+*.min.css
+*.min.html
+*full.html
+*.zip
+*.prettierrc
