@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Проект</title>
+        <link rel="stylesheet" href="styles/main.css" />
+        <!-- <link rel="stylesheet" href="styles/variables.css" />
+        <link rel="stylesheet" href="styles/layout.css" />
+        <link rel="stylesheet" href="styles/responsive.css" /> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <a href="/">Логотип</a>
+                </div>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link">Главная</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="content">
+                <section class="hero">
+                    <h1 class="hero__title">Добро пожаловать на сайт</h1>
+                    <p class="hero__description">Описание главного экрана</p>
+                    <button class="hero__button">Узнать больше</button>
+                </section>
+
+                <section class="features">
+                    <div class="feature">
+                        <h2 class="feature__title">Особенность 1</h2>
+                        <p class="feature__description">Описание особенности</p>
+                    </div>
+                    <!-- Другие особенности -->
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <img src="img/10.jpg" alt="Слайд 1" />
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/11.jpg" alt="Слайд 2" />
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/12.jpg" alt="Слайд 3" />
+                        </div>
+                    </div>
+                    <button class="slider-prev">&#10094;</button>
+                    <button class="slider-next">&#10095;</button>
+                </div>
+
+                <div class="footer-contacts">
+                    <p class="footer__address">Адрес: г. Москва, ул. Примерная, 123</p>
+                    <p class="footer__phone">Телефон: +7 (999) 123-45-67</p>
+                    <p class="footer__email">Email: info@example.com</p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/slider.js"></script>
+        <script src="scripts/lazyload.js"></script>
+    </body>
+</html>
